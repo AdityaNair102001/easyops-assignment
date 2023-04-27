@@ -1,3 +1,13 @@
+# Features
+- Mobile Responsive
+- Persistant Storage
+- Sort by name (click name column)
+- Search by name
+- Delete data
+- Unique name and phno
+- All input mandatory 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
