@@ -1,4 +1,4 @@
-import sort from "../../sort";
+import sort from "../../utils/sort";
 import del from "../../utils/del";
 import "./Table.css";
 import { useEffect } from "react";
