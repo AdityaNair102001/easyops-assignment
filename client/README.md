@@ -3,9 +3,9 @@
 - Persistant Storage
 - Sort by name (click name column)
 - Search by name
-- delete data
-- unique name and phno
-- all input mandatory 
+- Delete data
+- Unique name and phno
+- All input mandatory 
 
 
 # Getting Started with Create React App
