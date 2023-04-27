@@ -1,5 +1,5 @@
 .search {
-  border: 1px salmon solid;
+  /* border: 1px salmon solid; */
   width: 30%;
   margin: 2rem auto;
   text-align: center;
@@ -11,8 +11,22 @@
   padding: 0.5rem 1rem;
   border-radius: 5rem;
 }
+@media (max-width: 480px) {
+  .search {
+    width: 100%;
+  }
+}
+
+.search > input:focus {
+  background-color: aliceblue;
+}
 
 .search > button {
   padding: 0.5rem 1rem;
   margin: 1rem;
+  background-color: aliceblue;
+}
+
+.search > button:hover {
+  background-color: rgb(227, 242, 255);
 }

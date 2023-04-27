@@ -1,5 +1,5 @@
-import onSubmitHandler from "../../onSubmitHandler";
-import onChangeHandler from "../../onChangeHandler";
+import onSubmitHandler from "../../utils/onSubmitHandler";
+import onChangeHandler from "../../utils/onChangeHandler";
 import "./Form.css";
 
 function Form({ fn, ln, phno, table, setTable, setFn, setLn, setPhno }) {

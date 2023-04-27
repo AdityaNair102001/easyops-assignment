@@ -1,5 +1,5 @@
 import sort from "../../sort";
-import del from "../../del";
+import del from "../../utils/del";
 import "./Table.css";
 import { useEffect } from "react";
 

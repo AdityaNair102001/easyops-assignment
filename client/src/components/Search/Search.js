@@ -1,5 +1,5 @@
-import onChangeHandler from "../../onChangeHandler";
-import search from "../../search";
+import onChangeHandler from "../../utils/onChangeHandler";
+import search from "../../utils/search";
 import "./Search.css";
 
 function Search({ table, searchInput, setSearchInput }) {
@@ -8,10 +8,16 @@ function Search({ table, searchInput, setSearchInput }) {
       {" "}
       <input
         onChange={(event) => onChangeHandler(event, setSearchInput)}
-        placeholder="search"
+        placeholder="🔎search"
         value={searchInput}
       ></input>
-      <button onClick={() => search(searchInput, table, setSearchInput)}>
+      <button
+        onClick={() =>
+          searchInput
+            ? search(searchInput, table, setSearchInput)
+            : alert("Please enter something in search box")
+        }
+      >
         Search
       </button>
     </div>

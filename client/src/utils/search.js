@@ -8,7 +8,7 @@ export default function search(input, table, setSearchInput) {
   ) {
     alert(input + " found in row: " + index);
   } else {
-    alert("Element Not found");
+    alert(input + " not found");
   }
   setSearchInput("");
 }

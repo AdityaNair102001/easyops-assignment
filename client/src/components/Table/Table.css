@@ -1,12 +1,18 @@
 .table {
   width: 50%;
-  margin: 2rem auto;
+  margin: auto;
   text-align: center;
-  /* border: 1px red solid; */
+}
+
+@media (max-width: 480px) {
+  .table {
+    width: 80%;
+  }
 }
 
 .table > table {
-  margin: auto;
+  /* margin: auto; */
+  width: 100%;
 }
 
 .table > table > tr {
@@ -15,5 +21,5 @@
 
 .table > table > tr > th {
   background-color: rgb(248, 252, 252);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
 }
