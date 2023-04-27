@@ -3,10 +3,10 @@ export default function search(input, table, setSearchInput) {
   if (
     table.some((row) => {
       index++;
-      return row.name === input;
+      return row.name === input.trim();
     })
   ) {
-    alert(input + " found in row: " + index);
+    alert(input.trim() + " found in row: " + index);
   } else {
     alert(input + " not found");
   }
