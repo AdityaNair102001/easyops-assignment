@@ -1,0 +1,18 @@
+.search {
+  border: 1px salmon solid;
+  width: 30%;
+  margin: 2rem auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.search > input {
+  width: 80%;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+}
+
+.search > button {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}

@@ -1,0 +1,17 @@
+.form {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  border: 1px red solid;
+  background-color: rgb(242, 242, 250);
+  padding: 1rem;
+}
+
+.fn {
+  margin: 0.5rem;
+}
+
+.submit > button {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
